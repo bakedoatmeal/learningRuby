@@ -1,7 +1,10 @@
 def make_art(num)
   num.times do |index|
     line = ""
-    index.times do 
+    (num-index+1).times do 
+      line += " "
+    end
+    (index+1).times do 
       line += "^"
     end
     puts line
