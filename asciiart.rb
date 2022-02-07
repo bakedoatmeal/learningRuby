@@ -5,7 +5,7 @@ def make_art(num)
       line += " "
     end
     (index+1).times do 
-      line += "^"
+      line += "^ "
     end
     puts line
   end
